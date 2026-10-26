@@ -29,6 +29,7 @@ requirements:
     - obspy >=1.3.0
     - pyside6
     - cartopy
+    - pyyaml
     - if: linux
       then:
         - __linux
