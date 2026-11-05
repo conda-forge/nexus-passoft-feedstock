@@ -1,5 +1,5 @@
 context:
-  version: "2.0.1"
+  version: "2.1.0"
   python_min: "3.9"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://gitlab.com/earthscope/public/epic/passoft/nexus/-/archive/v${{ version }}/nexus-v${{ version }}.tar.gz
-  sha256: 32db77e7df37e807bd4192592957f0312aa2c99a408af9650367318f86f013e8
+  sha256: de899f4ad715a32c5c80ec85c4f4713bb1ce2c894b175ebb21fc050cd0de34ef
 
 build:
   noarch: python
